@@ -13,7 +13,8 @@ Questions:
 
 Data set used
 (1) http://www.csg.uzh.ch/publications/data/piratebay.html 
-(2) The dataset contains the metadata of 679,515 unique torrents from The Pirate Bay, using one of the most popular BitTorrent trackers. For each torrent, the metadata includes: ID of the torrent, category, torrent size, number of leechers, and number of seeders. The data was collected on December 5th, 2008
+(2) The dataset contains the metadata of 679,515 unique torrents from The Pirate Bay, using one of the most popular BitTorrent trackers. 
+For each torrent, the metadata includes: ID of the torrent, category, torrent size, number of leechers, and number of seeders. The data was collected on December 5th, 2008
 (3) We accessed the dataset on November 2nd, 2013.
 
 Hypothesized answers
