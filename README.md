@@ -1,0 +1,68 @@
+Chart
+=====
+
+Chart for computer science
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Category', 'Entries'],
+          ['101',     16183],
+          ['102',      8221],
+          ['103',      5732],
+          ['199',      11480],
+          ['201',      100791],
+		  ['202',      31279],
+		  ['203',      26163],
+		  ['204',      7441],
+		  ['205',      82319],
+		  ['206',      2461],
+		  ['207',      3547],
+		  ['208',      4657],
+		  ['299',      17105],
+		  ['301',      44621],
+		  ['302',      2687],
+		  ['303',      1118],
+		  ['304',      1282],
+		  ['399',      1465],
+		  ['401',      29822],
+		  ['402',      419],
+		  ['403',      3184],
+		  ['404',      3366],
+		  ['405',      2140],
+		  ['406',      5863],
+		  ['499',      2746],
+		  ['501',      31745],
+		  ['502',      396],
+		  ['503',      8478],
+		  ['504',      378],
+		  ['505',      172],
+		  ['506',      22440],
+		  ['599',      4521],
+		  ['601',      23684],
+		  ['602',      4954],
+		  ['603',      9676],
+		  ['604',      691],
+		  ['699',      8576],
+        ]);
+
+        var options = {
+          title: 'Number of torrents per category',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="donutchart" style="width: 950px; height: 550px;"></div>
+  </body>
+</html>
+
