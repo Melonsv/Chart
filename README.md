@@ -1,6 +1,4 @@
-Chart
+Important Info
 =====
 
-Chart for computer science
-
-Stuff for the project will be updated here.
+Resources and other files will be uploaded here. Check back often since I will be spamming this with files later in the day.
